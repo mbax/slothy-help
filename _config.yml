@@ -2,7 +2,7 @@
 title: "Slothy Help"
 email: tristan@slothhost.com
 description: "The official help center for slothhost.com"
-baseurl: "/slothy-help/"
+baseurl: "/slothy-help"
 url: "http://help.slothhost.com"
 twitter_username: "SlothHost"
 github_username:  "SlothHost"
@@ -12,9 +12,13 @@ language:  "en"
 
 # Build settings
 markdown: kramdown
-permalink: /:title/
 gems: [jekyll-paginate]
 paginate: 5
+
+collections:
+  articles:
+    output: true
+    permalink: /:collection/:path/
 
 # Plugins
 plugins_dir:

@@ -2,16 +2,16 @@
 layout: null
 ---
 [
-  {% for post in site.posts %}
+  {% for article in site.articles %}
     {
-      "title"       : "{{ post.title | escape }}",
-      "description" : "{{ post.description }}",
-      "date"        : "{{ post.date }}",
-      "categories"  : "{{ post.categories | array_to_sentence_string }}",
-      "by"          : "{{ post.by }}",
-      "url"         : "{{ site.baseurl }}{{ post.url }}",
-      "icon"        : "{{ post.icon }}",
-      "questions"   : {{ post.questions | jsonify }}
+      "title"       : "{{ article.title | escape }}",
+      "description" : "{{ article.description }}",
+      "date"        : "{{ article.date }}",
+      "categories"  : "{{ article.categories | array_to_sentence_string }}",
+      "by"          : "{{ article.by }}",
+      "url"         : "{{ site.baseurl }}{{ article.url }}",
+      "icon"        : "{{ article.icon }}",
+      "sections"   : {{ article.sections | jsonify }}
 
     } {% unless forloop.last %},{% endunless %}
   {% endfor %}

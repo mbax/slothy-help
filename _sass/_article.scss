@@ -1,4 +1,4 @@
-.content-post {
+.content-article {
   min-height: calc(100vh - 480px);
   background: #f3f5f7;
   padding-top: 30px;
@@ -30,16 +30,16 @@
       color: $colortheme;
     }
 
-    .list-post-title {
+    .list-article-title {
       font-size: 22px;
       transition: .3s;
       color: $colortheme;
     }
-    .list-post-description {
+    .list-article-description {
       font-size: 16px
     }
 
-    .list-post-written {
+    .list-article-written {
       span {
         font-weight: bold
 
@@ -62,7 +62,7 @@
   overflow: hidden;
   &:hover {
     border-color: $colortheme;
-    .list-post-title {
+    .list-article-title {
       color: $colortheme;
     }
   }

@@ -1,7 +1,7 @@
 {% assign categories = include.path | split:"/" %}
 {% assign filename_without_extension = categories | last | split:"." | first %}
-{% if categories contains "_posts" or filename_without_extension == "index" %}
-{% comment %} posts are like /docs/python/_posts/2016-06-06-foobar.md {% endcomment %}
+{% if categories contains "_articles" or filename_without_extension == "index" %}
+{% comment %} articles are like /docs/python/_articles/2016-06-06-foobar.md {% endcomment %}
 {% comment %} OR pages are index.* i.e.: like /docs/python/index.md or index.html {% endcomment %}
 {% assign categories = categories | pop %}
 {% endif %}
