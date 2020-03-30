@@ -1,17 +1,8 @@
-# Jekyll | Help Center
+# SlothHost | Help Center
 Simple and responsive Jekyll theme for help center.
 
 # Demo
-[Demo online](https://gustavoquinalha.github.io/jekyll-help-center-theme/)
-
-![Color Theme](http://quinalha.me/jekyll-help-center-theme/assets/img/readme/responsive.png)
-
-# Color theme
-edit in _config.yml
-```
-color_theme:  "#0081ff"
-color_text:  "#fff"
-```
+[Demo online](https://help.slothhost.com/)
 
 # Install
 ```
@@ -59,7 +50,3 @@ questions:
 ```
 ## License
 The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
-
-# Inspired by
-- https://help.market.envato.com/hc/en-us
-- https://www.intercom.com/
