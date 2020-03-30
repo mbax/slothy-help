@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "First category"
+title: "Example Post"
 description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
 date: March 30 2020
 categories: tutorial
